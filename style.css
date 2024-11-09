@@ -1,0 +1,140 @@
+/* Mengatur dasar halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    color: #2C3E50;
+}
+
+/* Menyusun form agar tampak lebih rapi */
+form {
+    background-color: white;
+    padding: 20px;
+    margin: 50px auto;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"], textarea, input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+button:disabled {
+    background-color: #bdc3c7;
+    cursor: not-allowed;
+}
+
+/* Pengaturan untuk menampilkan pesan kesalahan atau sukses */
+.alert {
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #e74c3c;
+    border-radius: 5px;
+}
+
+.success {
+    background-color: #2ecc71;
+}
+
+.info {
+    background-color: #3498db;
+}
+
+/* Style untuk halaman dashboard */
+.dashboard-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.dashboard-header h1 {
+    color: #2C3E50;
+}
+
+.dashboard-section {
+    margin-top: 20px;
+}
+
+.dashboard-section h3 {
+    color: #34495e;
+}
+
+/* Mengatur tabel untuk hasil seleksi judul */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+td {
+    background-color: #f9f9f9;
+}
+
+/* Styling untuk menu navigasi */
+.navbar {
+    background-color: #2C3E50;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+}
